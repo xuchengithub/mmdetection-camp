@@ -1,3 +1,6 @@
 data
 workspace/.ipynb_checkpoints
 /mmdetection/workspace/work_dirs
+*.pth
+*.json
+*.log
