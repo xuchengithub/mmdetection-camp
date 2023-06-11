@@ -12,7 +12,7 @@ services:
     shm_size: "26gb"
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./mmdetection:/mmdetection
+      - ../mmdetection:/mmdetection
     privileged: true
     network_mode: "host"
     deploy:
